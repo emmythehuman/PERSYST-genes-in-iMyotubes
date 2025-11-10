@@ -1,7 +1,14 @@
 ---
 title: "iMyotube Gene Expression"
-format: html
+format: 
+  html:
+    embed-resources: true
+    self-contained: true
+    output-file: index.html
+    keep-md: true
 editor: visual
+execute:
+  freeze: false
 ---
 
 ```{r setup, include=FALSE}
