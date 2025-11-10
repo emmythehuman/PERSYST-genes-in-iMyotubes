@@ -27,7 +27,7 @@ setwd(this_dir)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## **Complete List**
+## **Expression Levels of all Genes in iMyotubes**
 
 This table shows averaged TPM values across different days of iMyotube transdifferentiation of four biological replicates (MC2936, MC3652, FC45. FC46).
 
@@ -200,7 +200,7 @@ reactable(
 )
 ```
 
-## **PERSYST Genes only**
+## **Expression Levels of PERSYST Genes in iMyotubes**
 
 ```{r PERSYST}
 #| echo: false
@@ -370,6 +370,3 @@ reactable(
 -   **Time points**: Days 0, 5, 9, 12, and 15 of iMyotube transdifferentiation
 -   **Values**: Average TPM across 4 biological replicates (MC2936, MC3652, FC45, FC46)
 -   Genes with 0TPM across all timepoints are removed.
-
-
-
